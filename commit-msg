@@ -1,7 +1,6 @@
 #!/bin/sh
 
 
-
 MSG=`awk '{printf("%s",$0)}' $1`
 
 if [ ${#MSG} -lt 10 ]  
